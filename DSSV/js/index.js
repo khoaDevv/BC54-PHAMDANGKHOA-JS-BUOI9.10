@@ -17,10 +17,10 @@ function themSV(){
     localStorage.setItem(DSSV_LOCAL,dataJson);
 }
 function xoaSV(id){
-console.log("🚴‍♀️ - xoaSV - xoaSV:", xoaSV);
-    var index 
+
+    var index ;
     for (var i = 0 ; i < dssv.length ; i++ ){
-        if(dssv[i].ma == id){
+        if(dssv[i].ma == id) {
             index = i ;
         }
     }
